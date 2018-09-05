@@ -1,10 +1,9 @@
-import fileinput
+def read():
+    a= input()
+    b=input()
+    res = int(a) + int(b)
+    print (res)
 
 
 if __name__ == '__main__':
-    lines = []
-    for line in fileinput.input():
-        lines.append(line)
-        
-    res =lines[0]+lines[1]
-    print(res)
+    read()
